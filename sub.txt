@@ -1,3 +1,5 @@
-vless://9425fc36-9d03-4435-bada-38a3a2efacf6@62.60.153.179:443?type=tcp&encryption=none&security=reality&pbk=cJP_QkImgMHhqKg4u8E-ah2zw77oW5Red832St60kiU&fp=chrome&sni=yandex.ru&sid=5a847f&spx=%2F&flow=xtls-rprx-vision#Белые_списки_1
-vless://20a12b0e-4a51-4747-9d69-96f5b4a22c70@62.60.153.179:28086?type=tcp&encryption=none&security=reality&pbk=c4Rv_83-8yuRBkP4_pm2d3QEx2XbpA7L8-6OrGMtQVI&fp=chrome&sni=www.ozon.ru&sid=5e3a&spx=%2F#Белые_списки_2
-vless://8ceb717e-0f53-489b-a1b0-8d90ff76eb1a@62.60.153.179:8443?type=tcp&encryption=none&security=none#ВПН
+vless://9425fc36-9d03-4435-bada-38a3a2efacf6@62.60.153.179:443?type=tcp&encryption=none&security=reality&pbk=cJP_QkImgMHhqKg4u8E-ah2zw77oW5Red832St60kiU&fp=chrome&sni=yandex.ru&sid=5a847f&spx=%2F&flow=xtls-rprx-vision#%D0%91%D0%B5%D0%BB%D1%8B%D0%B5_%D1%81%D0%BF%D0%B8%D1%81%D0%BA%D0%B8_1
+vless://20a12b0e-4a51-4747-9d69-96f5b4a22c70@62.60.153.179:2083?type=tcp&encryption=none&security=reality&pbk=c4Rv_83-8yuRBkP4_pm2d3QEx2XbpA7L8-6OrGMtQVI&fp=chrome&sni=www.ozon.ru&sid=5e3a&spx=%2F#%D0%91%D0%B5%D0%BB%D1%8B%D0%B5_%D1%81%D0%BF%D0%B8%D1%81%D0%BA%D0%B8_2
+vless://8c1701d3-89d0-424b-977b-0f963c376b8d@62.60.153.179:2096?type=tcp&encryption=none&security=reality&pbk=vCa_P9n02lxUuxZqaDoa1rRnnNHXwtVg4bPy3pPDzjs&fp=chrome&sni=megamarket.ru&sid=bd&spx=%2F#%D0%91%D0%B5%D0%BB%D1%8B%D0%B5_%D1%81%D0%BF%D0%B8%D1%81%D0%BA%D0%B8_3
+vless://d043c86e-a901-485c-a9d2-689e44961b30@62.60.153.179:8443?type=tcp&encryption=none&security=reality&pbk=I0AjVTCw0w-Ngio0t08C8PkRqr4WWJFw1O_7HZqrwgU&fp=chrome&sni=www.wildberries.ru&sid=a3d9&spx=%2F#%D0%91%D0%B5%D0%BB%D1%8B%D0%B5_%D1%81%D0%BF%D0%B8%D1%81%D0%BA%D0%B8_4
+vless://8ceb717e-0f53-489b-a1b0-8d90ff76eb1a@62.60.153.179:2053?type=tcp&encryption=none&security=none#%D0%92%D0%9F%D0%9D
