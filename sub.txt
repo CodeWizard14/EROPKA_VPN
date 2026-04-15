@@ -6,3 +6,4 @@ hysteria2://MySecretPass123@62.60.153.179:3478?security=tls&insecure=1&sni=www.d
 hysteria2://MySecretPass123@62.60.153.179:3478?security=tls&insecure=1&sni=static-mon.yandex.net#Hyst_yandex
 hysteria2://MySecretPass123@62.60.153.179:3478?security=tls&insecure=1&sni=www.ozon.ru#Hyst_ozon
 hysteria2://MySecretPass123@62.60.153.179:3478?security=tls&insecure=1&sni=lenta.ru#Hyst_lenta
+hysteria2://MySecretPass123@62.60.153.179:3478?security=tls&insecure=1&sni=google.com#Hyst_google
