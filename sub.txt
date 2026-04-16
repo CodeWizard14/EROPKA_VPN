@@ -1,9 +1,5 @@
-hysteria2://MySecretPass123@62.60.153.179:3478?security=tls&insecure=1&sni=www.gazeta.ru#Hyst_gazeta
-hysteria2://MySecretPass123@62.60.153.179:3478?security=tls&insecure=1&sni=yappy.media#Hyst_yappy
-hysteria2://MySecretPass123@62.60.153.179:3478?security=tls&insecure=1&sni=msk.t2.ru#Hyst_t2
-hysteria2://MySecretPass123@62.60.153.179:3478?security=tls&insecure=1&sni=energo.app#Hyst_energo
-hysteria2://MySecretPass123@62.60.153.179:3478?security=tls&insecure=1&sni=www.dellin.ru#Hyst_dellin
-hysteria2://MySecretPass123@62.60.153.179:3478?security=tls&insecure=1&sni=static-mon.yandex.net#Hyst_yandex
-hysteria2://MySecretPass123@62.60.153.179:3478?security=tls&insecure=1&sni=www.ozon.ru#Hyst_ozon
-hysteria2://MySecretPass123@62.60.153.179:3478?security=tls&insecure=1&sni=lenta.ru#Hyst_lenta
-hysteria2://MySecretPass123@62.60.153.179:3478?security=tls&insecure=1&sni=google.com#Hyst_google
+hysteria2://MySecretPass123@62.60.153.179:3478?security=tls&insecure=1&sni=energo.app#HY_energo
+hysteria2://MySecretPass123@62.60.153.179:3478?security=tls&insecure=1&sni=www.dellin.ru#HY_dellin
+hysteria2://MySecretPass123@62.60.153.179:3478?security=tls&insecure=1&sni=www.ozon.ru#HY_ozon
+vless://1f1a6ea7-b2d5-4fd4-be5f-0d8b1317d6b5@62.60.153.179:6444?encryption=none&security=reality&sni=ads.x5.ru&pbk=FD7YTKH3QSTPqm35DGFG23jJHC_rKo_T2ry7Nitvhjs&sid=c15a7e422151adbc&type=xhttp&host=62.60.153.179#WL_test
+vless://71d1a9bc-d996-4ad9-8815-1ad65b03b39c@51.250.71.207:6444?encryption=none&security=reality&sni=ads.x5.ru&pbk=lSxln8yg7CeN2RyhyBWoA-CGvesgsVoEWWpZSo_tNSU&sid=c15a7e422151adbc&type=xhttp&host=51.250.71.207#WL_V_test
