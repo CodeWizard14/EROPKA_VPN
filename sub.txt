@@ -1,5 +1,7 @@
 hysteria2://MySecretPass123@62.60.153.179:3478?security=tls&insecure=1&sni=energo.app#HY_energo
 hysteria2://MySecretPass123@62.60.153.179:3478?security=tls&insecure=1&sni=www.dellin.ru#HY_dellin
 hysteria2://MySecretPass123@62.60.153.179:3478?security=tls&insecure=1&sni=www.ozon.ru#HY_ozon
-hysteria2://MySecretPass123@62.60.153.179:3478?security=tls&insecure=1&sni=www.google.com#HY_google
-hysteria2://MySecretPass123@62.60.153.179:3478?security=tls&insecure=1&sni=www.microsoft.com#HY_microsoft
+vless://d13e813e-2b49-418a-8269-ca8431644b06@188.253.25.241:443?security=reality&encryption=none&pbk=6tucjTON2xAIZXUXUdjgHQQ9q154n49B-jTB8M9Wd2s&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=mirror.bahnhof.net#VL_1
+vless://d13e813e-2b49-418a-8269-ca8431644b06@2.59.219.141:443?security=reality&encryption=none&pbk=6tucjTON2xAIZXUXUdjgHQQ9q154n49B-jTB8M9Wd2s&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=mirror.bahnhof.net#%VL_2
+vless://d13e813e-2b49-418a-8269-ca8431644b06@185.212.117.62:443?security=reality&encryption=none&pbk=6tucjTON2xAIZXUXUdjgHQQ9q154n49B-jTB8M9Wd2s&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=mirror.bahnhof.net#VL_3
+vless://d13e813e-2b49-418a-8269-ca8431644b06@78.40.117.138:443?security=reality&encryption=none&pbk=6tucjTON2xAIZXUXUdjgHQQ9q154n49B-jTB8M9Wd2s&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=mirror.bahnhof.net#VL_4
