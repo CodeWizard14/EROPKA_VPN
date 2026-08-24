@@ -1,14 +1,184 @@
 {
-  "remarks": "🇪🇺 SMART-Авто",
-  "meta": {
-    "serverDescription": "Автовыбор доступного сервера"
-  },
   "dns": {
-    "queryStrategy": "UseIP",
     "servers": [
-      "8.8.8.8",
-      "1.1.1.1"
-    ]
+      "1.1.1.1",
+      "1.0.0.1"
+    ],
+    "queryStrategy": "UseIP"
+  },
+  "routing": {
+    "rules": [
+      {
+        "type": "field",
+        "protocol": [
+          "bittorrent"
+        ],
+        "outboundTag": "block"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "domain:singular.net",
+          "domain:ads.betweendigital.com",
+          "domain:pangle.io",
+          "domain:unityads.unity3d.com",
+          "domain:uxzw.club",
+          "domain:inmobi.com",
+          "domain:maticooads.com",
+          "domain:applovin.com",
+          "domain:apptracer.ru",
+          "domain:api.mixpanel.com",
+          "domain:udqrh6.ru",
+          "domain:yektanet.com",
+          "domain:togothermany.com",
+          "domain:ads.vungle.com",
+          "msk.pbx.roistat.com",
+          "pbx.roistat.com",
+          "pbx1.roistat.com",
+          "domain:mindbox.ru",
+          "domain:app-analytics-services.com",
+          "firebase-settings.crashlytics.com",
+          "domain:app-measurement.com",
+          "regexp:(^|\\.)adjust\\.(io|ru|com|world|net.in)$",
+          "regexp:^ym[a-z0-9]{8}\\.ru$",
+          "regexp:^browork[0-9]*er[0-9a-z]*\\.(com|cc|net)$",
+          "regexp:^brodownload[0-9a-z]*\\.(com|cc|net)$",
+          "domain:holadns.com",
+          "domain:proxyb.site",
+          "domain:shalltry.com",
+          "domain:wavemaximum.com",
+          "domain:trk.pinterest.com"
+        ],
+        "outboundTag": "block"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "domain:gosuslugi.ru",
+          "domain:nalog.ru",
+          "domain:mos.ru",
+          "domain:mosreg.ru",
+          "domain:gov.ru",
+          "domain:government.ru",
+          "domain:kremlin.ru",
+          "domain:goskey.ru",
+          "domain:gosdolgi.ru",
+          "domain:gu-st.ru",
+          "domain:grfc.ru",
+          "domain:cikrf.ru",
+          "domain:edu.ru",
+          "domain:emias.info",
+          "domain:ebs.ru",
+          "domain:mgfoms.ru",
+          "domain:pochta.ru",
+          "domain:russianpost.ru",
+          "domain:rustore.ru",
+          "domain:cbr.ru",
+          "domain:nspk.ru",
+          "domain:sber.ru",
+          "domain:sberbank.ru",
+          "domain:sbrf.ru",
+          "domain:tbank.ru",
+          "domain:tinkoff.ru",
+          "domain:tcsbank.ru",
+          "domain:vtb.ru",
+          "domain:alfabank.ru",
+          "domain:gpb.ru",
+          "domain:gazprombank.ru",
+          "domain:mkb.ru",
+          "domain:rshb.ru",
+          "domain:psbank.ru",
+          "domain:bcs.ru",
+          "domain:bcs-bank.ru",
+          "domain:pochtabank.ru",
+          "domain:abr.ru",
+          "domain:domrfbank.ru",
+          "domain:domrf.bank",
+          "domain:xn--80ab2al.xn--d1aqf.xn--p1ai",
+          "domain:mironline.ru",
+          "domain:banki.ru",
+          "domain:finuslugi.ru",
+          "domain:moex.com",
+          "domain:dolyame.ru",
+          "domain:yandex.ru",
+          "domain:yandex.com",
+          "domain:yandex.net",
+          "domain:ya.ru",
+          "domain:dzen.ru",
+          "domain:vk.ru",
+          "domain:vk.com",
+          "domain:mail.ru",
+          "domain:ok.ru",
+          "domain:max.ru",
+          "domain:tamtam.chat",
+          "domain:kinopoisk.ru",
+          "domain:ivi.ru",
+          "domain:rutube.ru",
+          "domain:afisha.ru",
+          "domain:amediateka.ru",
+          "domain:bookmate.ru",
+          "domain:start.ru",
+          "domain:wink.ru",
+          "domain:premier.one",
+          "domain:okko.tv",
+          "domain:okko.sport",
+          "domain:kion.ru",
+          "domain:smotreshka.tv",
+          "domain:zvuk.com",
+          "domain:viju.ru",
+          "domain:beeline.tv",
+          "domain:tvigle.ru",
+          "domain:ozon.ru",
+          "domain:wildberries.ru",
+          "domain:wb.ru",
+          "domain:avito.ru",
+          "domain:cdek.ru",
+          "domain:lamoda.ru",
+          "domain:megamarket.ru",
+          "domain:kuper.ru",
+          "domain:samokat.ru",
+          "domain:magnit.ru",
+          "domain:vkusvill.ru",
+          "domain:5ka.ru",
+          "domain:perekrestok.ru",
+          "domain:x5.ru",
+          "domain:detmir.ru",
+          "domain:dns-shop.ru",
+          "domain:lemanapro.ru",
+          "domain:fix-price.com",
+          "domain:auchan.ru",
+          "domain:metro-cc.ru",
+          "domain:dixy.ru",
+          "domain:chizhik.club",
+          "domain:krasnoeibeloe.ru",
+          "domain:myspar.ru",
+          "domain:bristol.ru",
+          "domain:winelab.ru",
+          "domain:vkusnoitochka.ru",
+          "domain:burgerkingrus.ru",
+          "domain:2gis.ru",
+          "domain:rzd.ru",
+          "domain:tutu.ru",
+          "domain:aviasales.ru",
+          "domain:ostrovok.ru",
+          "domain:otello.ru",
+          "domain:citydrive.ru",
+          "domain:blablacar.ru",
+          "domain:avtovokzaly.ru",
+          "domain:mosmetro.ru",
+          "domain:mosmetro.tech",
+          "domain:mts.ru",
+          "domain:megafon.ru",
+          "domain:beeline.ru",
+          "domain:rostelecom.ru",
+          "domain:t2.ru",
+          "domain:dom.ru"
+        ],
+        "outboundTag": "direct"
+      }
+    ],
+    "domainMatcher": "hybrid",
+    "domainStrategy": "IPIfNonMatch"
   },
   "inbounds": [
     {
@@ -18,8 +188,7 @@
       "protocol": "socks",
       "settings": {
         "udp": true,
-        "auth": "noauth",
-        "allowTransparent": false
+        "auth": "noauth"
       },
       "sniffing": {
         "enabled": true,
@@ -37,8 +206,6 @@
       "listen": "127.0.0.1",
       "protocol": "http",
       "settings": {
-        "udp": true,
-        "auth": "noauth",
         "allowTransparent": false
       },
       "sniffing": {
@@ -54,16 +221,16 @@
   ],
   "outbounds": [
     {
-      "tag": "smart-0------SMART-----------",
+      "tag": "proxy",
       "protocol": "vless",
       "settings": {
         "vnext": [
           {
-            "address": "mbt7z5b-wzr5mx.nl.velvetvpn.xyz",
+            "address": "ne.vps-01.netlynx.cc",
             "port": 40443,
             "users": [
               {
-                "id": "460d6f77-8072-4961-97c1-49338fd178b6",
+                "id": "c236b4d8-db73-4f1a-9cb3-7efa7f96d7d3",
                 "encryption": "none",
                 "flow": "xtls-rprx-vision"
               }
@@ -77,455 +244,23 @@
         "security": "reality",
         "realitySettings": {
           "serverName": "deepl.com",
-          "publicKey": "wKPAR2t-xoUMbBqRHV7SLvGuR9dwrcH6bTSknyBO0T8",
-          "shortId": "a1b2c3d4e5f6789a",
-          "spiderX": "/",
-          "fingerprint": "qq"
+          "publicKey": "0S17d4aFbKx_k7TVkeYNaPRF0u78n4Wi1yrjid0GBU0",
+          "shortId": "4a20fc5a87e4c9e4",
+          "fingerprint": "firefox"
         }
       }
     },
     {
-      "tag": "smart-1------SMART-------",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "j3e4po21-11lz3k.95.v-tun.com",
-            "port": 40443,
-            "users": [
-              {
-                "id": "460d6f77-8072-4961-97c1-49338fd178b6",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "tcpSettings": {},
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "api-maps.yandex.ru",
-          "publicKey": "DG904eM7xGecwV_nhjX73c-7g_fGEv8BgjbeAmTE8Bs",
-          "shortId": "505c94b8c65afb0a",
-          "spiderX": "/",
-          "fingerprint": "qq"
-        }
-      }
+      "tag": "direct",
+      "protocol": "freedom"
     },
     {
-      "tag": "smart-2------SMART---------",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "px1t-tab-57fzza.de.deepl-cdn.com",
-            "port": 8443,
-            "users": [
-              {
-                "id": "460d6f77-8072-4961-97c1-49338fd178b6",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "tcpSettings": {},
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "deepl.com",
-          "publicKey": "DG904eM7xGecwV_nhjX73c-7g_fGEv8BgjbeAmTE8Bs",
-          "shortId": "505c94b8c65afb0a",
-          "spiderX": "/",
-          "fingerprint": "qq"
-        }
-      }
-    },
-    {
-      "tag": "smart-3------SMART-------",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "m221kk29-d4zzaq.gb.userapi.dev",
-            "port": 40443,
-            "users": [
-              {
-                "id": "460d6f77-8072-4961-97c1-49338fd178b6",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "tcpSettings": {},
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "sun9-45.userapi.com",
-          "publicKey": "DG904eM7xGecwV_nhjX73c-7g_fGEv8BgjbeAmTE8Bs",
-          "shortId": "505c94b8c65afb0a",
-          "spiderX": "/",
-          "fingerprint": "qq"
-        }
-      }
-    },
-    {
-      "tag": "smart-4------SMART-------",
-      "protocol": "vless",
-      "settings": {
-        "vnext": [
-          {
-            "address": "z5xa-b1a-azar11.se.deepl-cdn.com",
-            "port": 40443,
-            "users": [
-              {
-                "id": "460d6f77-8072-4961-97c1-49338fd178b6",
-                "encryption": "none",
-                "flow": "xtls-rprx-vision"
-              }
-            ]
-          }
-        ]
-      },
-      "streamSettings": {
-        "network": "tcp",
-        "tcpSettings": {},
-        "security": "reality",
-        "realitySettings": {
-          "serverName": "deepl.com",
-          "publicKey": "DG904eM7xGecwV_nhjX73c-7g_fGEv8BgjbeAmTE8Bs",
-          "shortId": "505c94b8c65afb0a",
-          "spiderX": "/",
-          "fingerprint": "qq"
-        }
-      }
-    },
-    {
-      "protocol": "freedom",
-      "tag": "direct"
-    },
-    {
-      "protocol": "blackhole",
-      "tag": "block"
+      "tag": "block",
+      "protocol": "blackhole"
     }
   ],
-  "observatory": {
-    "enableConcurrency": true,
-    "probeInterval": "2m",
-    "probeUrl": "http://www.gstatic.com/generate_204",
-    "subjectSelector": [
-      "smart-0------SMART-----------",
-      "smart-1------SMART-------",
-      "smart-2------SMART---------",
-      "smart-3------SMART-------",
-      "smart-4------SMART-------"
-    ]
-  },
-  "routing": {
-    "balancers": [
-      {
-        "tag": "lb_smart",
-        "selector": [
-          "smart-0------SMART-----------",
-          "smart-1------SMART-------",
-          "smart-2------SMART---------",
-          "smart-3------SMART-------",
-          "smart-4------SMART-------"
-        ],
-        "strategy": {
-          "type": "leastLoad",
-          "settings": {
-            "costs": [
-              {
-                "match": "smart-0------SMART-----------",
-                "regexp": false,
-                "value": 0
-              },
-              {
-                "match": "smart-1------SMART-------",
-                "regexp": false,
-                "value": 1000000000
-              },
-              {
-                "match": "smart-2------SMART---------",
-                "regexp": false,
-                "value": 2000000000
-              },
-              {
-                "match": "smart-3------SMART-------",
-                "regexp": false,
-                "value": 2147483647
-              },
-              {
-                "match": "smart-4------SMART-------",
-                "regexp": false,
-                "value": 2147483647
-              }
-            ],
-            "expected": 1,
-            "maxRTT": "2s"
-          }
-        },
-        "fallbackTag": "direct"
-      }
-    ],
-    "domainMatcher": "hybrid",
-    "domainStrategy": "IPIfNonMatch",
-    "rules": [
-      {
-        "type": "field",
-        "protocol": [
-          "bittorrent"
-        ],
-        "outboundTag": "direct"
-      },
-      {
-        "type": "field",
-        "port": "1,25,1900,22222,22224,33470,8886,6881,51413",
-        "outboundTag": "direct"
-      },
-      {
-        "type": "field",
-        "domain": [
-          "domain:24h.tv",
-          "domain:2w.ru",
-          "domain:4c.ru",
-          "domain:5ka.ru",
-          "domain:5post.market",
-          "domain:abr.ru",
-          "domain:afafb.com",
-          "domain:afisha.ru",
-          "domain:amediateka.ru",
-          "domain:applovin.com",
-          "domain:appsflyersdk.com",
-          "domain:auchan.ru",
-          "domain:av.ru",
-          "domain:avs.io",
-          "domain:avtovokzaly.ru",
-          "domain:bcs-bank.ru",
-          "domain:bcs.ru",
-          "domain:beeline.tv",
-          "domain:blablacar.ru",
-          "domain:boosty.to",
-          "domain:bristol.ru",
-          "domain:broker.ru",
-          "domain:capitalt.ru",
-          "domain:cardsmobile.ru",
-          "domain:cbr.ru",
-          "domain:cdek.ru",
-          "domain:cdn-tinkoff.ru",
-          "domain:cdn-vk.ru",
-          "domain:chizhik.club",
-          "domain:cian.ru",
-          "domain:cikrf.ru",
-          "domain:citydrive.ru",
-          "domain:cplsb.ru",
-          "domain:custody.ru",
-          "domain:data-tscbank.ru",
-          "domain:dbo-dengi.online",
-          "domain:deltacredit.ru",
-          "domain:depository.ru",
-          "domain:detmir.ru",
-          "domain:dixy.ru",
-          "domain:dolyame.ru",
-          "domain:donationalerts.com",
-          "domain:dostaevsky.ru",
-          "domain:e5.ru",
-          "domain:eaptechka.online",
-          "domain:eapteka.ru",
-          "domain:ebs.ru",
-          "domain:edu.ru",
-          "domain:electronicsignature.ru",
-          "domain:emias.info",
-          "domain:enterly.ru",
-          "domain:era-invest.ru",
-          "domain:etna.ai",
-          "domain:etradebook.ru",
-          "domain:fivepost.ru",
-          "domain:fix-price.com",
-          "domain:gainstech.ru",
-          "domain:geobasket.ru",
-          "domain:getsynapse.io",
-          "domain:gorodpay.ru",
-          "domain:gosdolgi.ru",
-          "domain:goskey.ru",
-          "domain:gosuslugi.ru",
-          "domain:gov.ru",
-          "domain:government.ru",
-          "domain:gpb.ru",
-          "domain:grfc.ru",
-          "domain:gu-st.ru",
-          "domain:imgsmail.ru",
-          "domain:ivi.ru",
-          "domain:jfn.su",
-          "domain:kinopoisk.ru",
-          "domain:kinorium.com",
-          "domain:koshelek.app",
-          "domain:krasnoeibeloe.ru",
-          "domain:kremlin.ru",
-          "domain:kuper.ru",
-          "domain:lifestyle-tec.ru",
-          "domain:magnit.ru",
-          "domain:mail.ru",
-          "domain:malotogo.ru",
-          "domain:max-tcs.ru",
-          "domain:max.ru",
-          "domain:megamarket.ru",
-          "domain:megamarket.tech",
-          "domain:memealerts.com",
-          "domain:meteum.ai",
-          "domain:metro-cc.ru",
-          "domain:mfk-t-finance.ru",
-          "domain:mgfoms.ru",
-          "domain:mkb.ru",
-          "domain:mos.ru",
-          "domain:mosreg.ru",
-          "domain:mp.world",
-          "domain:mradx.net",
-          "domain:mtsdengi.ru",
-          "domain:mvk.com",
-          "domain:my-tbank.ru",
-          "domain:myapelsin.ru",
-          "domain:mycdn.me",
-          "domain:myspar.ru",
-          "domain:naydex.net",
-          "domain:neon.click",
-          "domain:nspk.ru",
-          "domain:ocourier.ru",
-          "domain:ok.ru",
-          "domain:okcdn.ru",
-          "domain:okolo.app",
-          "domain:oneme.ru",
-          "domain:onlyjobs.ru",
-          "domain:ostrovok.ru",
-          "domain:otello.ru",
-          "domain:payment.ru",
-          "domain:phoenix-ca.ru",
-          "domain:pochtabank.ru",
-          "domain:premier.one",
-          "domain:private-banking.ru",
-          "domain:prodcontest.com",
-          "domain:psk",
-          "domain:restream-media.net",
-          "domain:rnd.ru",
-          "domain:rrtp.ru",
-          "domain:rshb.ru",
-          "domain:rtbcdn.ru",
-          "domain:russoutdoor.ru",
-          "domain:safeliner.tech",
-          "domain:sage-observability.tech",
-          "domain:samokat.ru",
-          "domain:sbrf.ru",
-          "domain:sgcheck.ru",
-          "domain:smotreshka.tv",
-          "domain:spb.ru",
-          "domain:start.ru",
-          "domain:t.finance",
-          "domain:tamtam.chat",
-          "domain:tb-esim.ru",
-          "domain:tbank-online.com",
-          "domain:tbank.ru",
-          "domain:tconf.ru",
-          "domain:tcsbank.ru",
-          "domain:telega.info",
-          "domain:telega.me",
-          "domain:time-messenger.ru",
-          "domain:tmiaf.ru",
-          "domain:tpension.ru",
-          "domain:travel-tec.ru",
-          "domain:trbcdn.net",
-          "domain:turbopages.org",
-          "domain:tutu.ru",
-          "domain:tvigle.ru",
-          "domain:userapi.com",
-          "domain:vamzakaz.ru",
-          "domain:viju.ru",
-          "domain:vkusnoitochka.ru",
-          "domain:vkusvill.ru",
-          "domain:vsemrabota.ru",
-          "domain:vtb.ru",
-          "domain:vungle.com",
-          "domain:warehouse.domains",
-          "domain:winelab.ru",
-          "domain:wink.ru",
-          "domain:yads.tech",
-          "domain:yccdn.ru",
-          "domain:yektanet.com",
-          "domain:youla-web-static.mrgcdn.ru",
-          "regexp:(^|\\.)2gis\\.(ae|am|az|by|com|com.cy|cz|ge|kg|kz|ru|tj|ua|uz)$",
-          "regexp:(^|\\.)alfa[a-z0-9-]*\\.(oavdo.amc|ru|st)$",
-          "regexp:(^|\\.)atomyze\\.(ru|tech)$",
-          "regexp:(^|\\.)aviasales\\.(com|ru)$",
-          "regexp:(^|\\.)avito\\.(ru|st)$",
-          "regexp:(^|\\.)dodo[a-z0-9-]*\\.(com|io|net|ru)$",
-          "regexp:(^|\\.)dzen[a-z0-9-]*\\.(ru)$",
-          "regexp:(^|\\.)gazprombank\\.(com|investments|ru)$",
-          "regexp:(^|\\.)it-[a-z0-9-]*\\.(ru)$",
-          "regexp:(^|\\.)jivo[a-z0-9-]*\\.(chat|co.in|co.za|com|com.br|com.co|com.pe|com.tr|de|es|ng|ru)$",
-          "regexp:(^|\\.)lenta\\.(com|tech)$",
-          "regexp:(^|\\.)mosmetro\\.(ru|tech)$",
-          "regexp:(^|\\.)o3[a-z0-9-]*\\.(ru)$",
-          "regexp:(^|\\.)okko\\.(sport|tv)$",
-          "regexp:(^|\\.)ozon[a-z0-9-]*\\.(by|com|pro|ru)$",
-          "regexp:(^|\\.)ozon\\.(by|com|dev|express|kz|li|ru|tech|tm|travel)$",
-          "regexp:(^|\\.)ozonru\\.(co.il|com|eu|me)$",
-          "regexp:(^|\\.)p(ay|lati)ecom\\.(ru)$",
-          "regexp:(^|\\.)perekrestok\\.(com|ru)$",
-          "regexp:(^|\\.)psb[a-z0-9-]*\\.(ru)$",
-          "regexp:(^|\\.)rb(collect|credit)\\.(ru)$",
-          "regexp:(^|\\.)rosban[a-z0-9-]*\\.(com|ru)$",
-          "regexp:(^|\\.)rusfinance[a-z0-9-]*\\.(ru)$",
-          "regexp:(^|\\.)rutube[a-z0-9-]*\\.(ru)$",
-          "regexp:(^|\\.)rwb[a-z0-9-]*\\.(ru|tech)$",
-          "regexp:(^|\\.)rzd[a-z0-9-]*\\.(ru)$",
-          "regexp:(^|\\.)sber[a-z0-9-]*\\.(by|com|pro|ru|tech)$",
-          "regexp:(^|\\.)spasib[a-z0-9-]*\\.(digital|market|ru)$",
-          "regexp:(^|\\.)t-[a-z0-9-]*\\.(by|group|ru|su)$",
-          "regexp:(^|\\.)t-tech\\.(dev|ru|team)$",
-          "regexp:(^|\\.)taxi[a-z0-9-]*\\.(org)$",
-          "regexp:(^|\\.)tink[a-z0-9-]*\\.(ai|com|ru)$",
-          "regexp:(^|\\.)tinsurance[a-z0-9-]*\\.(ru)$",
-          "regexp:(^|\\.)tochka[a-z0-9-]*\\.(com)$",
-          "regexp:(^|\\.)vk[^u][a-z0-9-]*\\.(app|com|me|net|ru)$",
-          "regexp:(^|\\.)vk\\.(cc|com|company|design|link|me|ru|team)$",
-          "regexp:(^|\\.)vkuser[a-z0-9-]*\\.(com|net|ru)$",
-          "regexp:(^|\\.)w[aeiou]{0,2}l[a-z0-9-]*\\.(ru)$",
-          "regexp:(^|\\.)wb[a-z0-9-]*\\.(by|net|ru|tech)$",
-          "regexp:(^|\\.)wb\\.(am|kg|kz|ru)$",
-          "regexp:(^|\\.)webvisor\\.(com|org)$",
-          "regexp:(^|\\.)wibes\\.(com|ru)$",
-          "regexp:(^|\\.)wildberries\\.(am|by|co.il|es|eu|ge|kg|kz|lt|ru|tj|tm|uz)$",
-          "regexp:(^|\\.)x5[a-z0-9-]*\\.(net|ru)$",
-          "regexp:(^|\\.)x5\\.(ai|com|digital|group|media|ru|team|tech)$",
-          "regexp:(^|\\.)ya\\.(cc|ru)$",
-          "regexp:(^|\\.)yand[a-z0-9-]*\\.(com|net|org|ru)$",
-          "regexp:(^|\\.)yandex\\.(aero|asia|az|by|cloud|co.il|com|com.am|com.ge|com.ru|com.tr|com.ua|de|ee|eu|fi|fr|jobs|kg|kz|lt|lv|md|mobi|net|org|pl|ru|st|sx|tj|tm|tr|ua|uz)$",
-          "regexp:(^|\\.)yang[a-z0-9-]*\\.(com)$",
-          "regexp:(^|\\.)yango\\.(africa|ao|bh|co.il|com|fi|qa|taxi|tech)$",
-          "regexp:(^|\\.)yast[a-z0-9-]*\\.(net|ru)$",
-          "regexp:(^|\\.)zvuk[a-z0-9-]*\\.(com)$",
-          "regexp:wb\\.(com|ru)$",
-          "regexp:youla\\.(io|ru)$"
-        ],
-        "outboundTag": "direct"
-      },
-      {
-        "type": "field",
-        "balancerTag": "lb_smart",
-        "inboundTag": [
-          "socks",
-          "http"
-        ],
-        "network": "tcp,udp"
-      }
-    ]
+  "remarks": "VPN 🇳🇱 Нидерланды",
+  "meta": {
+    "serverDescription": "Быстрый. Без рекламы"
   }
 }
