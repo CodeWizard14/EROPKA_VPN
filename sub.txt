@@ -1,4 +1,298 @@
-vless://d13e813e-2b49-418a-8269-ca8431644b06@188.253.25.241:443?security=reality&encryption=none&pbk=6tucjTON2xAIZXUXUdjgHQQ9q154n49B-jTB8M9Wd2s&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=mirror.bahnhof.net#VL_1
-vless://d13e813e-2b49-418a-8269-ca8431644b06@2.59.219.141:443?security=reality&encryption=none&pbk=6tucjTON2xAIZXUXUdjgHQQ9q154n49B-jTB8M9Wd2s&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=mirror.bahnhof.net#VL_2
-vless://d13e813e-2b49-418a-8269-ca8431644b06@185.212.117.62:443?security=reality&encryption=none&pbk=6tucjTON2xAIZXUXUdjgHQQ9q154n49B-jTB8M9Wd2s&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=mirror.bahnhof.net#VL_3
-vless://d13e813e-2b49-418a-8269-ca8431644b06@78.40.117.138:443?security=reality&encryption=none&pbk=6tucjTON2xAIZXUXUdjgHQQ9q154n49B-jTB8M9Wd2s&headerType=none&fp=firefox&type=tcp&flow=xtls-rprx-vision&sni=mirror.bahnhof.net#VL_4
+{
+  "dns": {
+    "servers": [
+      "1.1.1.1",
+      "1.0.0.1"
+    ],
+    "queryStrategy": "UseIP"
+  },
+  "routing": {
+    "rules": [
+      {
+        "type": "field",
+        "protocol": [
+          "bittorrent"
+        ],
+        "outboundTag": "block"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "domain:singular.net",
+          "domain:ads.betweendigital.com",
+          "domain:pangle.io",
+          "domain:unityads.unity3d.com",
+          "domain:uxzw.club",
+          "domain:inmobi.com",
+          "domain:maticooads.com",
+          "domain:applovin.com",
+          "domain:apptracer.ru",
+          "domain:api.mixpanel.com",
+          "domain:udqrh6.ru",
+          "domain:yektanet.com",
+          "domain:togothermany.com",
+          "domain:ads.vungle.com",
+          "domain:msk.pbx.roistat.com",
+          "domain:pbx.roistat.com",
+          "domain:pbx1.roistat.com",
+          "domain:mindbox.ru",
+          "domain:app-analytics-services.com",
+          "domain:firebase-settings.crashlytics.com",
+          "domain:app-measurement.com",
+          "regexp:(^|\\.)adjust\\.(io|ru|com|world|net\\.in)$",
+          "regexp:^ym[a-z0-9]{8}\\.ru$",
+          "regexp:^browork[0-9]*er[0-9a-z]*\\.(com|cc|net)$",
+          "regexp:^brodownload[0-9a-z]*\\.(com|cc|net)$",
+          "domain:holadns.com",
+          "domain:proxyb.site",
+          "domain:shalltry.com",
+          "domain:wavemaximum.com",
+          "domain:trk.pinterest.com"
+        ],
+        "outboundTag": "block"
+      },
+      {
+        "type": "field",
+        "domain": [
+          "domain:gosuslugi.ru",
+          "domain:nalog.ru",
+          "domain:mos.ru",
+          "domain:mosreg.ru",
+          "domain:gov.ru",
+          "domain:government.ru",
+          "domain:kremlin.ru",
+          "domain:goskey.ru",
+          "domain:gosdolgi.ru",
+          "domain:gu-st.ru",
+          "domain:grfc.ru",
+          "domain:cikrf.ru",
+          "domain:edu.ru",
+          "domain:emias.info",
+          "domain:ebs.ru",
+          "domain:mgfoms.ru",
+          "domain:pochta.ru",
+          "domain:russianpost.ru",
+          "domain:rustore.ru",
+          "domain:cbr.ru",
+          "domain:nspk.ru",
+          "domain:sber.ru",
+          "domain:sberbank.ru",
+          "domain:sbrf.ru",
+          "domain:tbank.ru",
+          "domain:tinkoff.ru",
+          "domain:tcsbank.ru",
+          "domain:vtb.ru",
+          "domain:alfabank.ru",
+          "domain:gpb.ru",
+          "domain:gazprombank.ru",
+          "domain:mkb.ru",
+          "domain:rshb.ru",
+          "domain:psbank.ru",
+          "domain:bcs.ru",
+          "domain:bcs-bank.ru",
+          "domain:pochtabank.ru",
+          "domain:abr.ru",
+          "domain:domrfbank.ru",
+          "domain:domrf.bank",
+          "domain:xn--80ab2al.xn--d1aqf.xn--p1ai",
+          "domain:mironline.ru",
+          "domain:banki.ru",
+          "domain:finuslugi.ru",
+          "domain:moex.com",
+          "domain:dolyame.ru",
+          "domain:yandex.ru",
+          "domain:yandex.com",
+          "domain:yandex.net",
+          "domain:ya.ru",
+          "domain:dzen.ru",
+          "domain:vk.ru",
+          "domain:vk.com",
+          "domain:mail.ru",
+          "domain:ok.ru",
+          "domain:max.ru",
+          "domain:tamtam.chat",
+          "domain:kinopoisk.ru",
+          "domain:ivi.ru",
+          "domain:rutube.ru",
+          "domain:afisha.ru",
+          "domain:amediateka.ru",
+          "domain:bookmate.ru",
+          "domain:start.ru",
+          "domain:wink.ru",
+          "domain:premier.one",
+          "domain:okko.tv",
+          "domain:okko.sport",
+          "domain:kion.ru",
+          "domain:smotreshka.tv",
+          "domain:zvuk.com",
+          "domain:viju.ru",
+          "domain:beeline.tv",
+          "domain:tvigle.ru",
+          "domain:ozon.ru",
+          "domain:wildberries.ru",
+          "domain:wb.ru",
+          "domain:avito.ru",
+          "domain:cdek.ru",
+          "domain:lamoda.ru",
+          "domain:megamarket.ru",
+          "domain:kuper.ru",
+          "domain:samokat.ru",
+          "domain:magnit.ru",
+          "domain:vkusvill.ru",
+          "domain:5ka.ru",
+          "domain:perekrestok.ru",
+          "domain:x5.ru",
+          "domain:detmir.ru",
+          "domain:dns-shop.ru",
+          "domain:lemanapro.ru",
+          "domain:fix-price.com",
+          "domain:auchan.ru",
+          "domain:metro-cc.ru",
+          "domain:dixy.ru",
+          "domain:chizhik.club",
+          "domain:krasnoeibeloe.ru",
+          "domain:myspar.ru",
+          "domain:bristol.ru",
+          "domain:winelab.ru",
+          "domain:vkusnoitochka.ru",
+          "domain:burgerkingrus.ru",
+          "domain:2gis.ru",
+          "domain:rzd.ru",
+          "domain:tutu.ru",
+          "domain:aviasales.ru",
+          "domain:ostrovok.ru",
+          "domain:otello.ru",
+          "domain:citydrive.ru",
+          "domain:blablacar.ru",
+          "domain:avtovokzaly.ru",
+          "domain:mosmetro.ru",
+          "domain:mosmetro.tech",
+          "domain:mts.ru",
+          "domain:megafon.ru",
+          "domain:beeline.ru",
+          "domain:rostelecom.ru",
+          "domain:t2.ru",
+          "domain:dom.ru"
+        ],
+        "outboundTag": "direct"
+      },
+      {
+        "type": "field",
+        "network": "tcp,udp",
+        "inboundTag": [
+          "socks",
+          "http"
+        ],
+        "balancerTag": "LB_VPN_AUTO"
+      }
+    ],
+    "balancers": [
+      {
+        "tag": "LB_VPN_AUTO",
+        "selector": [
+          "VPN_AUTO"
+        ],
+        "strategy": {
+          "type": "leastLoad",
+          "settings": {
+            "maxRTT": "2s",
+            "expected": 1
+          }
+        }
+      }
+    ],
+    "domainMatcher": "hybrid",
+    "domainStrategy": "IPIfNonMatch"
+  },
+  "inbounds": [
+    {
+      "tag": "socks",
+      "port": 10808,
+      "listen": "127.0.0.1",
+      "protocol": "socks",
+      "settings": {
+        "udp": true,
+        "auth": "noauth"
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    },
+    {
+      "tag": "http",
+      "port": 10809,
+      "listen": "127.0.0.1",
+      "protocol": "http",
+      "settings": {
+        "allowTransparent": false
+      },
+      "sniffing": {
+        "enabled": true,
+        "routeOnly": false,
+        "destOverride": [
+          "http",
+          "tls",
+          "quic"
+        ]
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "tag": "VPN_AUTO",
+      "protocol": "vless",
+      "settings": {
+        "vnext": [
+          {
+            "address": "ne.vps-01.netlynx.cc",
+            "port": 40443,
+            "users": [
+              {
+                "id": "0dc101da-7f8c-4837-992c-e58564c0887f",
+                "encryption": "none",
+                "flow": "xtls-rprx-vision"
+              }
+            ]
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "tcp",
+        "tcpSettings": {},
+        "security": "reality",
+        "realitySettings": {
+          "serverName": "deepl.com",
+          "publicKey": "0S17d4aFbKx_k7TVkeYNaPRF0u78n4Wi1yrjid0GBU0",
+          "shortId": "4a20fc5a87e4c9e4",
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "block",
+      "protocol": "blackhole"
+    },
+    {
+      "tag": "direct",
+      "protocol": "freedom"
+    }
+  ],
+  "observatory": {
+    "probeUrl": "http://www.gstatic.com/generate_204",
+    "probeInterval": "1m",
+    "subjectSelector": [
+      "VPN_AUTO"
+    ],
+    "enableConcurrency": true
+  },
+  "remarks": "🇳🇱 VPN Нидерланды",
+  "meta": {
+    "serverDescription": "Быстрый. Без рекламы"
+  }
+}
